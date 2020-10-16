@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934F4CC52537367D0019E5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4CC42537367D0019E5D4 /* AppDelegate.swift */; };
+		934F4CC72537367D0019E5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4CC62537367D0019E5D4 /* SceneDelegate.swift */; };
+		934F4CC92537367D0019E5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4CC82537367D0019E5D4 /* ViewController.swift */; };
+		934F4CCC2537367D0019E5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CCA2537367D0019E5D4 /* Main.storyboard */; };
+		934F4CCE253736800019E5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CCD253736800019E5D4 /* Assets.xcassets */; };
+		934F4CD1253736800019E5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CCF253736800019E5D4 /* LaunchScreen.storyboard */; };
+		934F4CDC253737AF0019E5D4 /* program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4CDB253737AF0019E5D4 /* program.swift */; };
+		939994B625398EC00032EA15 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939994B525398EC00032EA15 /* profile.swift */; };
+		939994B825398FBE0032EA15 /* videoProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939994B725398FBE0032EA15 /* videoProgram.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		934F4CC12537367D0019E5D4 /* nethamiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nethamiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934F4CC42537367D0019E5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		934F4CC62537367D0019E5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		934F4CC82537367D0019E5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		934F4CCB2537367D0019E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		934F4CCD253736800019E5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		934F4CD0253736800019E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		934F4CD2253736800019E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934F4CDB253737AF0019E5D4 /* program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = program.swift; sourceTree = "<group>"; };
+		939994B525398EC00032EA15 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		939994B725398FBE0032EA15 /* videoProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoProgram.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934F4CBE2537367D0019E5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934F4CB82537367D0019E5D4 = {
+			isa = PBXGroup;
+			children = (
+				934F4CC32537367D0019E5D4 /* nethamiApp */,
+				934F4CC22537367D0019E5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		934F4CC22537367D0019E5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934F4CC12537367D0019E5D4 /* nethamiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934F4CC32537367D0019E5D4 /* nethamiApp */ = {
+			isa = PBXGroup;
+			children = (
+				934F4CDA253736B70019E5D4 /* mainStoryboard */,
+				934F4CD9253736A60019E5D4 /* viewControllers  */,
+				934F4CD8253736960019E5D4 /* models */,
+				934F4CC42537367D0019E5D4 /* AppDelegate.swift */,
+				934F4CC62537367D0019E5D4 /* SceneDelegate.swift */,
+				934F4CCD253736800019E5D4 /* Assets.xcassets */,
+				934F4CD2253736800019E5D4 /* Info.plist */,
+			);
+			path = nethamiApp;
+			sourceTree = "<group>";
+		};
+		934F4CD8253736960019E5D4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				934F4CDB253737AF0019E5D4 /* program.swift */,
+				939994B525398EC00032EA15 /* profile.swift */,
+				939994B725398FBE0032EA15 /* videoProgram.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		934F4CD9253736A60019E5D4 /* viewControllers  */ = {
+			isa = PBXGroup;
+			children = (
+				934F4CC82537367D0019E5D4 /* ViewController.swift */,
+			);
+			path = "viewControllers ";
+			sourceTree = "<group>";
+		};
+		934F4CDA253736B70019E5D4 /* mainStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				934F4CCF253736800019E5D4 /* LaunchScreen.storyboard */,
+				934F4CCA2537367D0019E5D4 /* Main.storyboard */,
+			);
+			path = mainStoryboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934F4CC02537367D0019E5D4 /* nethamiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934F4CD5253736800019E5D4 /* Build configuration list for PBXNativeTarget "nethamiApp" */;
+			buildPhases = (
+				934F4CBD2537367D0019E5D4 /* Sources */,
+				934F4CBE2537367D0019E5D4 /* Frameworks */,
+				934F4CBF2537367D0019E5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nethamiApp;
+			productName = nethamiApp;
+			productReference = 934F4CC12537367D0019E5D4 /* nethamiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934F4CB92537367D0019E5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Mariam Alkandari";
+				TargetAttributes = {
+					934F4CC02537367D0019E5D4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 934F4CBC2537367D0019E5D4 /* Build configuration list for PBXProject "nethamiApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 934F4CB82537367D0019E5D4;
+			productRefGroup = 934F4CC22537367D0019E5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934F4CC02537367D0019E5D4 /* nethamiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934F4CBF2537367D0019E5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F4CD1253736800019E5D4 /* LaunchScreen.storyboard in Resources */,
+				934F4CCE253736800019E5D4 /* Assets.xcassets in Resources */,
+				934F4CCC2537367D0019E5D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934F4CBD2537367D0019E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F4CC92537367D0019E5D4 /* ViewController.swift in Sources */,
+				934F4CDC253737AF0019E5D4 /* program.swift in Sources */,
+				934F4CC52537367D0019E5D4 /* AppDelegate.swift in Sources */,
+				939994B625398EC00032EA15 /* profile.swift in Sources */,
+				939994B825398FBE0032EA15 /* videoProgram.swift in Sources */,
+				934F4CC72537367D0019E5D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		934F4CCA2537367D0019E5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934F4CCB2537367D0019E5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		934F4CCF253736800019E5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				934F4CD0253736800019E5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		934F4CD3253736800019E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		934F4CD4253736800019E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934F4CD6253736800019E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRN594Y3CR;
+				INFOPLIST_FILE = nethamiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MARIAM.nethamiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934F4CD7253736800019E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRN594Y3CR;
+				INFOPLIST_FILE = nethamiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MARIAM.nethamiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934F4CBC2537367D0019E5D4 /* Build configuration list for PBXProject "nethamiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934F4CD3253736800019E5D4 /* Debug */,
+				934F4CD4253736800019E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934F4CD5253736800019E5D4 /* Build configuration list for PBXNativeTarget "nethamiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934F4CD6253736800019E5D4 /* Debug */,
+				934F4CD7253736800019E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934F4CB92537367D0019E5D4 /* Project object */;
+}

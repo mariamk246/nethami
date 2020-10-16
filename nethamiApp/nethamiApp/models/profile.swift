@@ -1,0 +1,15 @@
+//
+//  profile.swift
+//  nethamiApp
+//
+//  Created by Mariam Alkandari on 10/16/20.
+//  Copyright © 2020 Mariam Alkandari. All rights reserved.
+//
+
+import Foundation
+
+struct instaProfile {
+    var imgProfile : String
+    var nameProfile : String
+    
+}
