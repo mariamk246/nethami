@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		934F4CC52537367D0019E5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4CC42537367D0019E5D4 /* AppDelegate.swift */; };
 		934F4CC72537367D0019E5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4CC62537367D0019E5D4 /* SceneDelegate.swift */; };
-		934F4CC92537367D0019E5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4CC82537367D0019E5D4 /* ViewController.swift */; };
 		934F4CCC2537367D0019E5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CCA2537367D0019E5D4 /* Main.storyboard */; };
 		934F4CCE253736800019E5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CCD253736800019E5D4 /* Assets.xcassets */; };
 		934F4CD1253736800019E5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4CCF253736800019E5D4 /* LaunchScreen.storyboard */; };
 		934F4CDC253737AF0019E5D4 /* program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4CDB253737AF0019E5D4 /* program.swift */; };
+		935B0D63253B68C4009EAE3C /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D62253B68C4009EAE3C /* mainVC.swift */; };
+		935B0D65253B6916009EAE3C /* instaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D64253B6916009EAE3C /* instaVC.swift */; };
+		935B0D67253B694B009EAE3C /* programInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D66253B694B009EAE3C /* programInfoVC.swift */; };
+		935B0D69253B69AC009EAE3C /* programTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D68253B69AC009EAE3C /* programTV.swift */; };
+		935B0D6B253B69DC009EAE3C /* progNamesTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D6A253B69DC009EAE3C /* progNamesTC.swift */; };
+		935B0D6E253B6AA4009EAE3C /* VideosTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D6D253B6AA4009EAE3C /* VideosTV.swift */; };
+		935B0D70253B6B00009EAE3C /* videoNameTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D6F253B6B00009EAE3C /* videoNameTC.swift */; };
+		935B0D73253B6B9E009EAE3C /* FavoritesTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D72253B6B9E009EAE3C /* FavoritesTV.swift */; };
+		935B0D76253B6BE7009EAE3C /* FavoritesListTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935B0D75253B6BE7009EAE3C /* FavoritesListTC.swift */; };
 		939994B625398EC00032EA15 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939994B525398EC00032EA15 /* profile.swift */; };
 		939994B825398FBE0032EA15 /* videoProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939994B725398FBE0032EA15 /* videoProgram.swift */; };
 /* End PBXBuildFile section */
@@ -22,12 +30,20 @@
 		934F4CC12537367D0019E5D4 /* nethamiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nethamiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934F4CC42537367D0019E5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934F4CC62537367D0019E5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		934F4CC82537367D0019E5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		934F4CCB2537367D0019E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		934F4CCD253736800019E5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934F4CD0253736800019E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		934F4CD2253736800019E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		934F4CDB253737AF0019E5D4 /* program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = program.swift; sourceTree = "<group>"; };
+		935B0D62253B68C4009EAE3C /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		935B0D64253B6916009EAE3C /* instaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instaVC.swift; sourceTree = "<group>"; };
+		935B0D66253B694B009EAE3C /* programInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programInfoVC.swift; sourceTree = "<group>"; };
+		935B0D68253B69AC009EAE3C /* programTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programTV.swift; sourceTree = "<group>"; };
+		935B0D6A253B69DC009EAE3C /* progNamesTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progNamesTC.swift; sourceTree = "<group>"; };
+		935B0D6D253B6AA4009EAE3C /* VideosTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosTV.swift; sourceTree = "<group>"; };
+		935B0D6F253B6B00009EAE3C /* videoNameTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoNameTC.swift; sourceTree = "<group>"; };
+		935B0D72253B6B9E009EAE3C /* FavoritesTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTV.swift; sourceTree = "<group>"; };
+		935B0D75253B6BE7009EAE3C /* FavoritesListTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListTC.swift; sourceTree = "<group>"; };
 		939994B525398EC00032EA15 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
 		939994B725398FBE0032EA15 /* videoProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoProgram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +102,11 @@
 		934F4CD9253736A60019E5D4 /* viewControllers  */ = {
 			isa = PBXGroup;
 			children = (
-				934F4CC82537367D0019E5D4 /* ViewController.swift */,
+				935B0D74253B6BAD009EAE3C /* Favorites */,
+				935B0D71253B6B15009EAE3C /* videosList */,
+				935B0D6C253B69E8009EAE3C /* ProgramList */,
+				935B0D64253B6916009EAE3C /* instaVC.swift */,
+				935B0D62253B68C4009EAE3C /* mainVC.swift */,
 			);
 			path = "viewControllers ";
 			sourceTree = "<group>";
@@ -98,6 +118,34 @@
 				934F4CCA2537367D0019E5D4 /* Main.storyboard */,
 			);
 			path = mainStoryboard;
+			sourceTree = "<group>";
+		};
+		935B0D6C253B69E8009EAE3C /* ProgramList */ = {
+			isa = PBXGroup;
+			children = (
+				935B0D66253B694B009EAE3C /* programInfoVC.swift */,
+				935B0D68253B69AC009EAE3C /* programTV.swift */,
+				935B0D6A253B69DC009EAE3C /* progNamesTC.swift */,
+			);
+			path = ProgramList;
+			sourceTree = "<group>";
+		};
+		935B0D71253B6B15009EAE3C /* videosList */ = {
+			isa = PBXGroup;
+			children = (
+				935B0D6D253B6AA4009EAE3C /* VideosTV.swift */,
+				935B0D6F253B6B00009EAE3C /* videoNameTC.swift */,
+			);
+			path = videosList;
+			sourceTree = "<group>";
+		};
+		935B0D74253B6BAD009EAE3C /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				935B0D75253B6BE7009EAE3C /* FavoritesListTC.swift */,
+				935B0D72253B6B9E009EAE3C /* FavoritesTV.swift */,
+			);
+			path = Favorites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,8 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934F4CC92537367D0019E5D4 /* ViewController.swift in Sources */,
+				935B0D65253B6916009EAE3C /* instaVC.swift in Sources */,
+				935B0D6E253B6AA4009EAE3C /* VideosTV.swift in Sources */,
+				935B0D76253B6BE7009EAE3C /* FavoritesListTC.swift in Sources */,
+				935B0D63253B68C4009EAE3C /* mainVC.swift in Sources */,
+				935B0D73253B6B9E009EAE3C /* FavoritesTV.swift in Sources */,
+				935B0D69253B69AC009EAE3C /* programTV.swift in Sources */,
+				935B0D70253B6B00009EAE3C /* videoNameTC.swift in Sources */,
+				935B0D67253B694B009EAE3C /* programInfoVC.swift in Sources */,
 				934F4CDC253737AF0019E5D4 /* program.swift in Sources */,
+				935B0D6B253B69DC009EAE3C /* progNamesTC.swift in Sources */,
 				934F4CC52537367D0019E5D4 /* AppDelegate.swift in Sources */,
 				939994B625398EC00032EA15 /* profile.swift in Sources */,
 				939994B825398FBE0032EA15 /* videoProgram.swift in Sources */,
