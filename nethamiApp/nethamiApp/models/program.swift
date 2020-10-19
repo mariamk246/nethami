@@ -11,3 +11,19 @@ import Foundation
 struct program {
     var programName : String
 }
+
+
+    
+var programs :[program] = [
+.init(programName: "نظام الصيام ")
+.init(programName: "نظام النباتي ")
+.init(programName: "الصيام الكيتو")
+.init(programName: "نظام الصيام ")
+.init(programName: "نظام الصيام ")
+.init(programName: "نظام الصيام ")
+.init(programName: "نظام الصيام ")
+.init(programName: "نظام الصيام ")
+.init(programName: "نظام الصيام ")
+]
+
+

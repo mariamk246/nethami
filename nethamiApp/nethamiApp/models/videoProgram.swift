@@ -13,3 +13,5 @@ struct vidProg {
     var vidName : String
     
 }
+
+
